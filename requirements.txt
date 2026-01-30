@@ -1,0 +1,26 @@
+# DynaGuide Requirements
+# Zero-Shot Guided Unsupervised Semantic Segmentation
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=9.0.0
+matplotlib>=3.5.0
+scikit-learn>=1.0.0
+
+# Transformers for pseudo-label generators
+transformers>=4.30.0
+
+# SegFormer support
+timm>=0.9.0
+
+# Diffusion models (optional, for DiffSeg)
+diffusers>=0.20.0
+
+# Evaluation
+scikit-image>=0.19.0
+
+# Utilities
+tqdm>=4.60.0
