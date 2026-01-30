@@ -24,10 +24,10 @@
 
 ## Highlights
 
-- 🎯 **Dual-Guidance Framework**: Combines static global pseudo-labels with dynamic local CNN refinement
-- ⚡ **Adaptive Multi-Loss**: Feature similarity + Huber-smoothed diagonal continuity + global guidance alignment
-- 🔄 **Flexible Guidance**: Works with unsupervised (DiffSeg) or supervised-pretrained (SegFormer) pseudo-labels
-- 🚀 **Lightweight**: Only **106.4K parameters** and **6.99 GFLOPs** — 183 FPS on CPU
+- **Dual-Guidance Framework**: Combines static global pseudo-labels with dynamic local CNN refinement
+- **Adaptive Multi-Loss**: Feature similarity + Huber-smoothed diagonal continuity + global guidance alignment
+- **Flexible Guidance**: Works with unsupervised (DiffSeg) or supervised-pretrained (SegFormer) pseudo-labels
+- **Lightweight**: Only **106.4K parameters** and **6.99 GFLOPs** — 183 FPS on CPU
 - 📊 **State-of-the-Art**: +17.5% mIoU on BSD500, +3.1% on PASCAL VOC2012, +11.66% on COCO
 
 ---
